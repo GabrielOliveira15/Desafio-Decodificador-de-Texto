@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function funcao1()
+        {
+            alert("Criptografado!!");
+        }
+
+        function funcao2()
+        {
+            alert("Descriptografado!!");
+        }
+    </script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <section class="apresentacao">
+            <img src="./assets/Logo.png" class="apresentacao_logo">
+            <section class="apresetacao_inserirtexto">
+                <div class="apresentacao_inserirtexto_form">
+                    <textarea 
+                        placeholder="Digite seu texto"
+                        cols="42"
+                        rows="15"
+                        id="apresentacao_inserirtexto_form_textarea"
+                    ></textarea>
+                    <p class="apresentacao_inserirtexto_form_observacao"><img src="./assets/exclamation-circle-fill.svg"> Apenas letras minúsculas e sem acento.</p>
+                    <div class="apresentacao_inserirtexto_form_botoes">
+                        <button type="button" class="apresentacao_inserirtexto_form_botoes_botao" id="btn_criptografar" onclick="funcao1()">Criptografar</button>
+                        <button type="button" class="apresentacao_inserirtexto_form_botoes_botao" id="btn_descriptografar" onclick="funcao2()">Descriptografar</button>
+                    </div>
+                </div>
+            </section>
+            <section class="apresentacao_resultadotexto">
+                <img src="./assets/imagem_section.png" class="apresentacao_resultadotexto_imagem">
+                <h2 class="apresentacao_resultadotexto_tituloVazio">Nenhuma mensagem encontrada</h2>
+                <p class="apresentacao_resultadotexto_paragrafoVazio">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </section>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #F3F5FC;
+}
+
+.apresentacao {
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.apresentacao_logo {
+    width: 120px;
+    height: 48px;
+}
+
+.apresetacao_inserirtexto {
+    margin-top: 10rem;
+    width: 55%;
+}
+
+#apresentacao_inserirtexto_form_textarea {
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: #0A3871;
+    background-color: #F3F5FC;
+    border: 1px solid #F3F5FC;
+}
+
+#apresentacao_inserirtexto_form_textarea:focus {
+    border: 1px solid #F3F5FC;
+}
+
+::-webkit-input-placeholder {
+    color: #0A3871;
+ }
+ 
+ :-moz-placeholder {
+    color: #0A3871;
+ }
+ 
+ ::-moz-placeholder {
+     color: #0A3871;
+ }
+ 
+ :-ms-input-placeholder {  
+    color: #0A3871;
+ }
+
+ .apresentacao_inserirtexto_form_observacao {
+    font-size: 0.75rem;
+ }
+
+ .apresentacao_inserirtexto_form_botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin-top: 1rem;
+ }
+
+ .apresentacao_inserirtexto_form_botoes_botao {
+    padding: 1.5rem 15%;
+    border-radius: 20px;
+    font-size: 1rem;
+ }
+
+ #btn_criptografar {
+    background-color: #0A3871;
+    color: #FFF;
+ }
+
+ #btn_descriptografar {
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+ }
+
+ .apresentacao_resultadotexto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 400px;
+    background-color: #FFF;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.56);
+ }
+
+ .apresentacao_resultadotexto_imagem {
+    width: 21rem;
+    height: 19rem;
+ }
+
+ .apresentacao_resultadotexto_tituloVazio {
+    width: 70%;
+    text-align: center;
+    font-size: 1.5rem;
+ }
+
+ .apresentacao_resultadotexto_paragrafoVazio {
+    width: 70%;
+    text-align: center;
+    font-size: 1rem;
+ }
