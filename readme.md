@@ -32,11 +32,13 @@ Tive a oportunidade de realizar uma formação oferecida pela Alura juntamente c
 
 https://github.com/GabrielOliveira15/Desafio-Decodificador-de-Texto/assets/103316226/87277da2-81d1-483c-87ca-72cee006a8d7
 
+## Resultado
+Clique [aqui](https://gabrieloliveira15.github.io/Desafio-Decodificador-de-Texto/) para visualizar o site esse projeto!
+
 ## Melhorias futuras
 
-- Refatorações
-- Responsivo para mobile e tablets
-
+- Refatoração
+- Responsividade
 
 ## Stack utilizada
 
