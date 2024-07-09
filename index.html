@@ -5,17 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decodificador de Texto</title>
     <link rel="stylesheet" href="style.css">
-    <script>
-        function funcao1()
-        {
-            alert("Criptografado!!");
-        }
-
-        function funcao2()
-        {
-            alert("Descriptografado!!");
-        }
-    </script>
+    <script src="script.js"></script>
 </head>
 <body>
     <header></header>
@@ -32,15 +22,19 @@
                     ></textarea>
                     <p class="apresentacao_inserirtexto_form_observacao"><img src="./assets/exclamation-circle-fill.svg"> Apenas letras minúsculas e sem acento.</p>
                     <div class="apresentacao_inserirtexto_form_botoes">
-                        <button type="button" class="apresentacao_inserirtexto_form_botoes_botao" id="btn_criptografar" onclick="funcao1()">Criptografar</button>
-                        <button type="button" class="apresentacao_inserirtexto_form_botoes_botao" id="btn_descriptografar" onclick="funcao2()">Descriptografar</button>
+                        <button type="button" class="apresentacao_inserirtexto_form_botoes_botao" id="btn_criptografar" onclick="Criptografia('criptografia')">Criptografar</button>
+                        <button type="button" class="apresentacao_inserirtexto_form_botoes_botao" id="btn_descriptografar" onclick="Criptografia('descriptografia')">Descriptografar</button>
                     </div>
                 </div>
             </section>
-            <section class="apresentacao_resultadotexto">
-                <img src="./assets/imagem_section.png" class="apresentacao_resultadotexto_imagem">
-                <h2 class="apresentacao_resultadotexto_tituloVazio">Nenhuma mensagem encontrada</h2>
-                <p class="apresentacao_resultadotexto_paragrafoVazio">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <section class="apresentacao_resultadotexto" id="apresentacao_resultadotexto_id">
+                <img src="./assets/imagem_section.png" class="apresentacao_resultadotexto_imagem" id="apresentacao_resultadotexto_imagem_id">
+                <h2 class="apresentacao_resultadotexto_tituloVazio" id="apresentacao_resultadotexto_tituloVazio_id">Nenhuma mensagem encontrada</h2>
+                <p class="apresentacao_resultadotexto_paragrafoVazio" id="apresentacao_resultadotexto_paragrafoVazio_id">Digite um texto que você deseja criptografar ou descriptografar.</p>
+
+                <p class="apresentacao_resultadotexto_textotratado" id="apresentacao_resultadotexto_textotratado_id"></p>
+
+                <button type="button" class="apresentacao_inserirtexto_form_botoes_botao" id="apresentacao_inserirtexto_form_botoes_botao_descriptografar" onclick="CopiarTexto()">Copiar</button>
             </section>
         </section>
     </main>

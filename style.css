@@ -85,6 +85,17 @@ body {
     color: #0A3871;
  }
 
+ #apresentacao_inserirtexto_form_botoes_botao_descriptografar {
+   background-color: #D8DFE8;
+   border: 1px solid #0A3871;
+   color: #0A3871;
+   display: none;
+ }
+
+ #apresentacao_resultadotexto_textotratado_id {
+   display: none;
+ }
+
  .apresentacao_resultadotexto {
     display: flex;
     flex-direction: column;
@@ -95,6 +106,22 @@ body {
     background-color: #FFF;
     border-radius: 2rem;
     box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.56);
+ }
+
+ .apresentacao_resultadotexto_tratado {
+   width: 400px;
+   background-color: #FFF;
+   border-radius: 2rem;
+   box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.56);
+   padding: 2rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+
+ .apresentacao_resultadotexto_textotratado {
+   font-size: 1.5rem;
+   color: #0A3871;
  }
 
  .apresentacao_resultadotexto_imagem {
