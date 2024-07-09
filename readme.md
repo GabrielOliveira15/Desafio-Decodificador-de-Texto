@@ -1,16 +1,7 @@
 
-# Decodificador de Texto - 
+# Decodificador de Texto
 
 Tive a oportunidade de realizar uma formação oferecida pela Alura juntamente com a Oracle e dentre todos os cursos, artigos, podcasts e leituras, foi ofertado a realização do Alura Challenge - Decodificador de Texto.
-
-
-
-
-## Referência
-
- - [Projeto no Figma](https://www.figma.com/design/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=0-1&t=wez8bjYC8xsYa2Cl-0)
- - [Acompanhamento Kanban pelo Trello](https://trello.com/b/Wn2dHT7v/challenge-oracle-one-logica-de-programacao-semanas-1-e-2)
-
 
 ## Funcionalidades
 
@@ -43,4 +34,9 @@ Clique [aqui](https://gabrieloliveira15.github.io/Desafio-Decodificador-de-Texto
 ## Stack utilizada
 
 **Front-end:** HTML, CSS e Javascript
+
+## Referência
+
+ - [Projeto no Figma](https://www.figma.com/design/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=0-1&t=wez8bjYC8xsYa2Cl-0)
+ - [Acompanhamento Kanban pelo Trello](https://trello.com/b/Wn2dHT7v/challenge-oracle-one-logica-de-programacao-semanas-1-e-2)
 
